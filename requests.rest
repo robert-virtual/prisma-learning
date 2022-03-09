@@ -1,0 +1,23 @@
+GET http://localhost:3000/api/posts
+
+###
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "title":"Primer post de Roberto castillo",
+    "authorId":2
+}
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name":"Roberto castillo",
+    "email":"robertocastillo945@gmail.com",
+    "password":"password"
+}
